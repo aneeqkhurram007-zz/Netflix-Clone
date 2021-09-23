@@ -1,0 +1,67 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://blog.resellerclub.com/wp-content/uploads/2017/02/netflix.png")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  padding-left: 20px;
+}
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginScreen__gradient {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__input input {
+  font-size: 1rem;
+  padding: 16px 20px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
